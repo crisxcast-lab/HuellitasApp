@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/tvDetalleNombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tvDetalleEspecie" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <TextView android:id="@+id/tvDetalleEdad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <TextView android:id="@+id/tvDetalleVacunado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <TextView android:id="@+id/tvDetalleEstado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <TextView android:id="@+id/tvDetalleDescripcion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <Button android:id="@+id/btnEditar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Editar" />
+        <Button android:id="@+id/btnEliminar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Eliminar" />
+    </LinearLayout>
+</ScrollView>
